@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" source="../GameScreen/dungeonTileSet.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECmNjYGBgpwBzAPVSAuSAmqUowAqUWA7UO2r/aPiPpj/y08Bo/qOsABro8scP6Hx/CnAAZd4f1T0aAqMhMBoCoyEwGgKjITAaAqMhQOcQAAC7NiMiABAAAA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="EntityObjectLayer">
+  <object id="1" gid="173" x="130" y="193" width="16" height="16">
+   <properties>
+    <property name="LevelToGoTo" value="Level2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAECu3QAQkAAAgDQfuHMYLZbDFEbgV+XJURIHBRYC6e8ikq0NGaGAECBAgQIECAwHeBBUVfQvAAEAAA
+  </data>
+ </layer>
+</map>

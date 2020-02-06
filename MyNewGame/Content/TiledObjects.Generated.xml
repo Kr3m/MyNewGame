@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objecttypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objecttype name="Door">
+    <property name="LevelToGoTo" type="string" />
+  </objecttype>
+  <objecttype name="Player">
+    <property name="speed" type="float" default="150" />
+  </objecttype>
+</objecttypes>
